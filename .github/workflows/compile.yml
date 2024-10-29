@@ -21,4 +21,4 @@ jobs:
       name: Upload the binary
       with:
         name: free-0.1-${{ github.run_number }}
-        path: ${{ github.workspace }}/publish/*
+        path: ./free
